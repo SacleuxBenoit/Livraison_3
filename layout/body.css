@@ -1,0 +1,11 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas: "header header header header header header" "main main main main main main" "main main main main main main" "main main main main main main" "main main main main main main" "footer footer footer footer footer footer";
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: black;
+}
+
+/*# sourceMappingURL=body.css.map */
