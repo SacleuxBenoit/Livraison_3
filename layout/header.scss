@@ -3,27 +3,13 @@
             margin:0px;
             padding:0px;
         }
-         a:visited{
-            color:rgb(53, 53, 117);
-        }
-        body{
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            grid-template-rows: repeat(6, 1fr);
-            grid-template-areas:
-            "header header header header header header"
-            "main main main main main main"
-            "main main main main main main"
-            "main main main main main main"
-            "main main main main main main"
-            "footer footer footer footer footer footer";
-            margin-left: 2rem;
-            margin-right: 2rem;
-            background-color: black;
-        }
+        
         
                 /* -------HEADER-------*/
-
+             a:visited{
+            color:rgb(53, 53, 117);
+             }
+        
         header {
             grid-area: header;
             background-color: rgb(177, 0, 177);
