@@ -1,0 +1,49 @@
+/* -------GENERAL-------*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+a:visited {
+  color: #353575;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas: "header header header header header header" "main main main main main main" "main main main main main main" "main main main main main main" "main main main main main main" "footer footer footer footer footer footer";
+  margin-left: 2rem;
+  margin-right: 2rem;
+  background-color: black;
+}
+
+/* -------HEADER-------*/
+header {
+  grid-area: header;
+  background-color: #b100b1;
+  text-align: center;
+}
+
+main {
+  grid-area: main;
+  background-color: blue;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0077b3;
+}
+
+/* -------FOOTER-------*/
+footer {
+  grid-area: footer;
+  background-color: red;
+}
+
+/*# sourceMappingURL=header.css.map */
