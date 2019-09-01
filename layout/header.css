@@ -6,28 +6,26 @@
 
 /* -------HEADER-------*/
 a:visited {
-  color: #353575;
+  color: blue;
 }
 
 header {
   grid-area: header;
-  background-color: #b100b1;
   text-align: center;
 }
 
 main {
   grid-area: main;
-  background-color: blue;
   text-align: center;
 }
 
 nav ul li {
   display: inline-block;
+  line-height: 2rem;
+  border-radius: 20px;
 }
-
-nav a {
+nav ul li nav {
   text-decoration: none;
-  color: #0077b3;
 }
 
 /*# sourceMappingURL=header.css.map */
