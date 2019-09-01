@@ -6,29 +6,30 @@
         
         
                 /* -------HEADER-------*/
-             a:visited{
-            color:rgb(53, 53, 117);
-             }
-        
+        a:visited{
+            color:blue;
+        }
         header {
             grid-area: header;
-            background-color: rgb(177, 0, 177);
+           
             text-align: center;
         }
 
         main {
             grid-area: main;
-            background-color: blue;
+           
             text-align:center;
         }        
         nav ul li{
             display:inline-block;
-        }     
+            line-height: 2rem;
+            border-radius: 20px;
             
-        nav a {
+        nav  {
                 text-decoration: none;
-                color: 	#0077b3;                  
+                
+                                 
         }
-    
+    }
 
         
